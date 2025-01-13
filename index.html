@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetShop</title>
+    <link rel="stylesheet" href="./global.css">
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="ul-navbar">
+            <li><a href="index.html"> <img src="./assets/imgs/Logo.svg" alt="icon-logo"></a></li>
+            <li><a href="#section-banner"> Home</a></li>
+            <li><a href="#section-about"> Sobre</a></li>
+            <li><a href="#section-numbers"> Dados</a></li>
+            <li><a href="#section-contacts"> Contatos</a></li>
+            <button class="hamburger">☰</button>
+        </ul>
+    </nav>
+
+    <div class="menu">
+        <a href="#section-banner"> Home</a></li>
+        <a href="#section-about"> Sobre</a></li>
+        <a href="#section-numbers"> Dados</a></li>
+        <a href="#section-contacts"> Contatos</a></li>
+    </div>
+
+
+    <div id="loading-screen">
+        <div class="loading-icon">
+            <div class="paw"></div> <!-- Ícone da pata dentro do círculo -->
+        </div>
+        <div class="loading-text">Preparando o cuidado para o seu pet...</div>
+    </div>
+
+<!-- Section Banner com animação fade-up no título e botões -->
+<section id="section-banner" class="section-banner">
+    <div class="banner-init">
+        <div class="banner-text" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"> <!-- Adicionado data-aos-delay -->
+            <h1>O cuidado pra quem é da sua família</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>    
+            <div class="banner-btns">
+                <input type="button" value="agende uma consulta" data-aos="fade-right" data-aos-delay="500"> <!-- Alterado delay -->
+                <input type="button" value="sobre nos" data-aos="fade-left" data-aos-delay="700"> <!-- Alterado delay -->
+            </div>
+        </div>
+        <div class="banner-img" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="300"> <!-- Adicionado data-aos-delay -->
+            <img src="./assets/imgs/banner cachorro1.png" alt="Banner-dog">
+        </div>
+    </div>
+</section>
+
+<!-- Adicionando animação de deslizamento nas imagens de serviços -->
+<div class="content-services">
+    <div class="services" data-aos="flip-left" data-aos-duration="1200">
+        <img src="./assets/imgs/Scizors.svg" alt="Tesoura Icon">
+        <h2>Tosa</h2>
+    </div>
+    <div class="services" data-aos="flip-right" data-aos-duration="1200" data-aos-delay="200">
+        <img src="./assets/imgs/WalkingDog.svg" alt="Passeando Cachorro">
+        <h2>passeando <br> cachorros </h2>
+    </div>
+    <div class="services" data-aos="flip-left" data-aos-duration="1200" data-aos-delay="400">
+        <img src="./assets/imgs/Hospital.svg" alt="Icon Hospital">
+        <h2>tratamento <br> do Pet</h2>
+    </div>
+    <div class="services" data-aos="flip-right" data-aos-duration="1200" data-aos-delay="600">
+        <img src="./assets/imgs/Dog.svg" alt="Cachorro">
+        <h2>Adestrador</h2>
+    </div>
+</div>
+
+<!-- Seção "Sobre" com animações -->
+<section id="section-about" class="section-about">
+    <div class="about-img" data-aos="fade-right" data-aos-duration="1500">
+        <img src="./assets/imgs/banner cachorro.png" alt="Banner cachorro">
+    </div>
+    <div class="about-text" data-aos="fade-left" data-aos-duration="1500">
+        <img src="./assets/imgs/Logo2.svg" alt="Logo">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ex turpis, suscipit nec eros vitae, suscipit maximus eros.</p>
+        <img src="./assets/imgs/VectorAbout.svg" alt="Icon Pata">
+        <img src="./assets/imgs/VectorAbout.svg" alt="Icon Pata">
+    </div>
+</section>
+
+<!-- Seção Números com animações de zoom -->
+<section id="section-numbers" class="section-numbers">
+    <h2 data-aos="fade-up" data-aos-duration="1000">Sobre os números</h2>
+    <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <div class="content-numbers">
+        <div class="numbers" data-aos="zoom-in" data-aos-duration="1000">
+            <h2>53</h2>
+            <p>Memorias da comunidade</p>
+        </div>
+        <div class="numbers" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
+            <h2>53</h2>
+            <p>Memorias da comunidade</p>
+        </div>
+        <div class="numbers" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
+            <h2>53</h2>
+            <p>Memorias da comunidade</p>
+        </div>
+    </div>
+</section>
+
+<!-- Seção de Contatos com animações -->
+<section id="section-contacts" class="section-contacts">
+    <div class="contacts-left" data-aos="fade-right" data-aos-duration="1000">
+        <div class="content-text">
+            <h2>Cuide do seu pet <br> entre em contato</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <input type="button" value="agende uma consulta">
+        </div>
+    
+        <div class="content-contacts">
+            <div class="contacts" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
+                <img src="./assets/imgs/Location.svg" alt="Icon location">
+                <p>Rua dos bobos</p>
+            </div>
+            <div class="contacts" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
+                <img src="./assets/imgs/Phone.svg" alt="Icon Phone">
+                <p>Rua dos bobos</p>
+            </div>
+            <div class="contacts" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="600">
+                <img src="./assets/imgs/Email.svg" alt="Icon email">
+                <p>Rua dos bobos</p>
+            </div>
+        </div>
+    </div>
+    <div class="contacts-right" data-aos="fade-left" data-aos-duration="1000">
+        <img src="./assets/imgs/CatBackground.png" alt="Banner Cat">
+    </div>
+</section>
+
+    <footer class="footer">
+        <div class="container-footer">
+            <div class="footer-texts">
+                <img src="./assets/imgs/Logo2.svg" alt="icon-logo">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="footer-texts">
+                <h3>Contac Us</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="footer-texts">
+                <h3>Contac Us</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+           
+            </div>
+            <div class="footer-texts">
+                <h3>Contac Us</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+        <div class="footer-terms">
+            <p>C 2024 Os Guri. Desenvolvidos com ❤️ por Os guris</p>
+            <p>Termos de Uso</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
