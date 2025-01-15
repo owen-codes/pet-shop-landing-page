@@ -184,8 +184,8 @@ html {
 
 .contacts-right {
     position: absolute;
+    left: 50%;
     z-index: -1;
-    right: 0;
 }
 
 .content-contacts {
@@ -223,10 +223,15 @@ html {
 }
 
 .footer-terms {
-    background-color: black;
+    background-color: #83ada4;
     color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.footer-terms a{
+    color: white;
 }
 
 
@@ -422,6 +427,8 @@ input[type="button"]:hover {
         border-radius: 3rem;
         padding: 2rem;
     }
+
+    
 }
 
 
