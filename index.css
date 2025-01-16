@@ -47,6 +47,10 @@ html {
     right: 100px;
 }
 
+.banner-img img {
+    width: 100%;
+}
+
 .banner-text {
     max-width: 576px;
     margin-top: 15rem;
@@ -118,6 +122,10 @@ html {
     left: 100px;
 }
 
+.about-img img {
+    width: 100%;
+}
+
 .section-numbers {
     background-color: #4F000B;
     color: white;
@@ -186,6 +194,10 @@ html {
     position: absolute;
     left: 50%;
     z-index: -1;
+}
+
+.contacts-right img {
+    width: 100%;
 }
 
 .content-contacts {
@@ -406,18 +418,6 @@ input[type="button"]:hover {
     .section-contacts{
         justify-content: center;
         margin: 0 2rem;
-    }
-
-    .banner-img{
-        display: none;
-    }
-
-    .about-img{
-        display: none;
-    }
-
-    .contacts-right {
-        display: none;
     }
 }
 
