@@ -39,7 +39,6 @@ html {
 
 .banner-init {
     display: flex;
-    overflow: hidden;
 }
 
 .banner-img {
@@ -101,7 +100,6 @@ html {
     justify-content: end;
     gap: 5rem;
     margin-top: 10rem;
-    overflow: hidden;
 }
 
 
@@ -152,7 +150,6 @@ html {
     align-items: center;
     margin-left: 7rem;
     margin-bottom: 7rem;
-    overflow: hidden;
 }
 
 
@@ -409,6 +406,18 @@ input[type="button"]:hover {
     .section-contacts{
         justify-content: center;
         margin: 0 2rem;
+    }
+
+    .banner-img{
+        display: none;
+    }
+
+    .about-img{
+        display: none;
+    }
+
+    .contacts-right {
+        display: none;
     }
 }
 
