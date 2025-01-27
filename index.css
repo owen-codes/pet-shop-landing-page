@@ -391,6 +391,10 @@ input[type="button"]:hover {
         display: none;
     }
 
+    .banner-img {
+        display: none;
+    }
+
     .hamburger {
         display: block;
     }
@@ -406,6 +410,23 @@ input[type="button"]:hover {
     .banner-init{
         justify-content: center;
     }
+
+    .about-img {
+        display: none;
+    }
+
+    .about-text {
+        justify-content: center;
+    }
+
+    .contacts-left {
+        justify-content: center;
+    }
+
+    .contacts-right {
+        display: none;
+    }
+
 
     .banner-text {
         margin-inline: 2rem;
